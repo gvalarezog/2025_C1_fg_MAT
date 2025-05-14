@@ -1,5 +1,6 @@
-from figura_geometrica import FiguraGeometrica
-from color import Color
+from src.color import Color
+from src.figura_geometrica import FiguraGeometrica
+
 
 class Rectangulo(FiguraGeometrica, Color):
     def __init__(self, alto=0, ancho=0, color=None):
